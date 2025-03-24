@@ -1,0 +1,46 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+body{
+    font-family: "Pretendard", sans-serif;
+}
+
+.sec1{
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-title{
+    padding: 110px 96px;
+    color: #222;
+    width: 50%
+}
+
+.main-title h3{
+    font-size: 56px;
+    font-weight: 600px;
+    margin-bottom: 50px;
+}
+
+.main-title p{
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.main-title ul>li{
+    font-size: 22px;
+    width: 768px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    float: left;
+}
+
+.img-box{
+    width: 50%;
+}
+
+.img1{ 
+    background:url(../images/nike1.jpg);
+    background-size: cover;
+}
