@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+
+body{
+    font-family: "Pretendard", sans-serif;
+}
+
+.sec1{
+    padding-top: 130px;
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+.title h2{
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+    margin-bottom: 160px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.content-box{
+    text-align: center;
+    padding: 24px;
+}
+
+.content-box>.c-1{
+    color: #666;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.content-box>.c-2{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.content-box>.c-3{
+    font-size: 20px;
+}
+
+@media screen and(min-width:1023px) {
+    .sec1{
+        padding-top: 80px;
+        float: left;
+    }
+
+    .title{
+        margin-bottom: 30px;
+    }
+
+    .sec1{
+        padding: 0 24px;
+    }
+
+    .box img{
+        width: 480px;
+    }
+
+    .content-box>.c-1{
+        color: #666;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    
+    .content-box>.c-2{
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 2px;
+    }
+    
+    .content-box>.c-3{
+        font-size: 16px;
+    }
+}
