@@ -1,0 +1,24 @@
+body{
+    box-sizing: border-box;
+}
+
+.sec1{
+    padding: 40px 0;
+}
+.gnb{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 24px 36px;
+}
+
+.gnb ul{
+    display: flex;
+    justify-content: center;
+    color: #363636;
+}
+
+.gnb ul li{
+    margin-right: 40px;
+}
+
